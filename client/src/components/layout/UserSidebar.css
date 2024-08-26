@@ -1,0 +1,31 @@
+/* .label:hover{
+    color: blue;
+} */
+/* UserSidebar.css */
+
+/* General button hover effect */
+.ant-btn-primary {
+  background-color: #5a51c1; /* Default background color */
+  border-color: #5a51c1; /* Default border color */
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.ant-btn-primary:hover {
+  background-color: #6b61da; /* Hover background color */
+  border-color: #6b61da; /* Hover border color */
+}
+
+/* Menu item hover effect */
+.ant-menu-item {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.ant-menu-item:hover {
+  background-color: #d3d1d1; /* Change background color on hover */
+  color: #5a51c1 !important; /* Change text color on hover */
+}
+
+/* Specific icon hover effect */
+.icon:hover {
+  background-color: #6b61da; /* Hover effect for icon backgrounds */
+}
